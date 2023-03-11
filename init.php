@@ -12,9 +12,9 @@ include("lang/".APP_LANG.".php");
 
 //It is very stupid to share passwords within GIT, but for demostration, we will close our eyes on this principle.
 $dbhost = 'localhost';
-$dbuser = 'u229483663_todo';
-$dbpass = 'Ensia123456';
-$dbname = 'u229483663_todo';
+$dbuser = 'root';//'u229483663_todo';
+$dbpass = ''; //'Ensia123456';
+$dbname = 'db_todo';//'u229483663_todo';
 
 $db = new db($dbhost, $dbuser, $dbpass, $dbname);
 
